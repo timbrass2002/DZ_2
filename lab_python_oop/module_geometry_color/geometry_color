@@ -1,0 +1,15 @@
+
+class Figure_color():
+
+    def __init__(self, color):
+        self.__color = "Белый"
+
+    def setcolor(self, color):
+        self.__color = color    
+
+    def getcolor(self):
+        return self.__color     
+
+    def delcolor(self):
+        del self.__color    
+
